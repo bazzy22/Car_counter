@@ -70,6 +70,7 @@ while True:
         cvzone.cornerRect(img, (x1, y1, w, h), l=9, rt=2, colorR=(255,0,0))
         cvzone.putTextRect(img, f' {id}', (max(0, x1), max(35, y1)), scale=0.6, thickness=1, offset=3)
 
+
     cv2.imshow("Image", img)
     #cv2.imshow("ImageRegion", imgRegion)
     cv2.waitKey(0)
