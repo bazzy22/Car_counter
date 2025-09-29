@@ -5,7 +5,7 @@ Questo progetto implementa un sistema di conteggio automatico dei veicoli (auto,
   <img src="https://github.com/user-attachments/assets/c6dbc88c-297d-4947-87fc-d807c0c9b4e1" alt="unknown_2025 09 29-14 57-ezgif com-optimize">
 </p>
 
-# Tecnologie Utilizzate
+## Tecnologie Utilizzate
 Python: Linguaggio di programmazione principale.
 
 OpenCV (cv2): Gestione del video, mascheramento e visualizzazione.
