@@ -1,19 +1,19 @@
 # Car Counter Project (YOLOv8 + SORT)
-Questo progetto implementa un sistema di conteggio automatico dei veicoli (auto, camion, autobus e moto) in un flusso video. Utilizza il modello di rilevamento oggetti YOLOv8 per identificare i veicoli e l'algoritmo di tracciamento SORT (Simple Online and Realtime Tracking) per mantenere traccia degli oggetti rilevati e contarli solo una volta al passaggio di una linea di confine definita.
+This project implements an automatic vehicle counting system (cars, trucks, buses, and motorcycles) in a video stream. It uses the YOLOv8 object detection model to identify vehicles and the SORT (Simple Online and Realtime Tracking) algorithm to keep track of detected objects and count them only once as they cross a defined boundary line.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c6dbc88c-297d-4947-87fc-d807c0c9b4e1" alt="unknown_2025 09 29-14 57-ezgif com-optimize">
 </p>
 
-## Tecnologie Utilizzate
-Python: Linguaggio di programmazione principale.
+## Technologies Used
+Python: Main programming language.
 
-OpenCV (cv2): Gestione del video, mascheramento e visualizzazione.
+OpenCV (cv2): Video management, masking, and visualization.
 
-Ultralytics YOLO: Framework per il rilevamento oggetti (YOLOv8n).
+Ultralytics YOLO: Framework for object detection (YOLOv8n).
 
-Numpy: Manipolazione di array per il rilevamento e il tracciamento.
+Numpy: Array manipulation for detection and tracking.
 
-cvzone: Utilizzato per semplificare la visualizzazione di rettangoli e testo.
+cvzone: Used to simplify the display of rectangles and text.
 
-SORT: Implementazione di un tracker multi-oggetto. https://github.com/abewley/sort
+SORT: Implementation of a multi-object tracker. https://github.com/abewley/sort
